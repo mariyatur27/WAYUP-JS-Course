@@ -9,7 +9,7 @@ h1 {
     align-items: center;
     flex-flow: column;
 }
-#tabs {
+#tabs , #tabs-2{
     display: flex;
 }
 .tab-btn {
@@ -34,8 +34,22 @@ h1 {
     border: 1px solid black;
 }
 
+#contents-2 {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+}
+
 .content {
     display: none;
+}
+
+.sub-content {
+    display: none;
+}
+
+.sub-content.active {
+    display: block;
 }
 
 .content.active {

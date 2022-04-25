@@ -34,6 +34,9 @@ const nextSlide = () => {
     }
 }
 
+//Function that makes slides move on their own
+setInterval(nextSlide, 3000);
+
 const prevSlide = () => {
     if(index == 0){
         index = slides.length-1;
